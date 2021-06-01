@@ -83,3 +83,23 @@ input[type="text"] {
     background-color: #fff;
     grid-area: bai;
 }
+
+
+
+@media (max-width: 1000px) {
+    .grid {
+        width: 70%
+    }
+}
+
+@media (max-width: 700px) {
+    .grid {
+        width: 90%
+    }
+}
+
+@media (max-width: 600px) {
+    .grid {
+        width: 100%
+    }
+}
