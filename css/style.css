@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f5f5dc;
+}
+
+.head {
+    text-align: center;
+    background-color: #008000;
+    padding-top: 10vh;
+    margin-bottom: -28px;
+}
+
+.head h1 {
+    color: #fff;
+}
+
+input[type="text"] {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border-radius: 20px 0;
+    margin-top: 6vh;
+    outline: none;
+    border: 4px solid #fafa0f;
+}
+
+.result {
+    background-color: #f5f5dc;
+    padding: 40px;
+    border-top: 7px solid #fafa0f;
+}
+
+.result h2 {
+    font-size: 1.3rem;
+    margin: 12px;
+}
+
+.result p {
+    font-size: 1rem;
+    margin: 12px;
+}
+
+.result div {
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #e7e7e7;
+}
+
+.grid {
+    margin: auto;
+    width: 40%;
+    display: grid;
+    grid-template-areas: "cep cep"
+                         "rua rua"
+                         "bai bai"
+                         "est cid";
+    grid-gap: 20px;
+}
+.cep-box {
+    background-color: #fff;
+    grid-area: cep;
+}
+
+.street-box {
+    grid-area: rua;
+    background-color: #fff;
+}
+
+.city-box {
+    grid-area: cid;
+    background-color: #fff;
+}
+
+.state-box {
+    grid-area: est;
+    background-color: #fff;
+}
+
+.district-box {
+    background-color: #fff;
+    grid-area: bai;
+}
